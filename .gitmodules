@@ -1,0 +1,4 @@
+[submodule "src/unity_lidar_transformer"]
+	path = src/unity_lidar_transformer
+	url = https://gitlab.screamtrumpet.csie.ncku.edu.tw/screamlab/unity_lidar_transformer.git
+	branch = main
