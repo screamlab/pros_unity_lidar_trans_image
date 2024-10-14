@@ -35,7 +35,7 @@ RUN mkdir -p ${ROS2_WS}/src && \
     rosdep install -q -y -r --from-paths src --ignore-src
 
 ### Lidar Transformer Installation ###
-RUN colcon build --packages-select unity_transformer --symlink-install --parallel-workers ${THREADS} --mixin release && \
+RUN colcon build --packages-select unity_lidar_transformer --symlink-install --parallel-workers ${THREADS} --mixin release && \
 
 ##### Post-Settings #####
 # Clear tmp and cache
